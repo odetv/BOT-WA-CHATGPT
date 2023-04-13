@@ -280,7 +280,7 @@ async function startHisoka() {
     } else if (connection === "open") {
       console.log(color("Bot success connected to server", "green"));
       console.log(color("Type /menu to see menu"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot aktif!\nOwner: ABDIUTAMA` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot aktif (SC: GITHUB)!\nOwner: ABDIUTAMA` });
     }
     // console.log('Connected...', update)
   });
